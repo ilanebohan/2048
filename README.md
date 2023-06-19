@@ -34,5 +34,20 @@ You can find the same information in the [contributing guide.](https://github.co
 ## License
 2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
 
-## Donations
-I made this in my spare time, and it's hosted on GitHub (which means I don't have any hosting costs), but if you enjoyed the game and feel like buying me coffee, you can donate at my BTC address: `1Ec6onfsQmoP9kkL3zkpB6c5sA4PVcXU2i`. Thank you very much!
+## Usage
+To host it in a codespace : 
+- Create a new codespace and set this repo as the actual project for the codespace
+- Open a terminal and install http-server using npm : npm i -g http-server
+- Type "http-server" in the terminal to execute the project
+
+## Advanced Usage 
+Now if you want to open in a VSCode tab :
+
+- Open the command palette
+- Search Simple Browser: Show
+- It will ask you which URL to open, just paste the URL that was opened in a tab in the previous steps.
+- 
+If you want hot reload :
+
+- Maybe you want the page to automatically refresh when you update your file. In the example above we installed http-server which is just a plain server that serves static files.
+- If you need hot reload you can install a server that supports it, here's a few: vite, @web/dev-server, browser-sync, ...
